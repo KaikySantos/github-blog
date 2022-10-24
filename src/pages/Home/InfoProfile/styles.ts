@@ -14,6 +14,12 @@ export const InfoProfileContainer = styled.div`
 
   > img {
     width: 9.25rem;
+    border-radius: 8px;
+  }
+
+  .contentHeader {
+    display: flex;
+    justify-content: space-between;
   }
 
   @media (max-width: 700px) {
