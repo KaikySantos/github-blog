@@ -78,6 +78,10 @@ export const Card = styled(Link)`
       font-size: 0.875rem;
       color: ${(props) => props.theme['base-span']};
       margin-left: 1rem;
+
+      &::first-letter {
+        text-transform: capitalize;
+      }
     }
   }
 
